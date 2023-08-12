@@ -1,0 +1,138 @@
+/* Add CSS here */
+.body-container {
+    font-family: 'poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1534400984015-ec242122bc65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGRhcmslMjBjbG91ZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60');
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(240, 942, 943, 0.4);
+    height: 500px;
+    max-width: 400px;
+    border-radius: 0.3em;
+}
+
+.close-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    height: 140px;
+    width: 450px;
+}
+
+.contents h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: gold;
+}
+
+.contents h2 {
+    font-size: 14px;
+    padding-bottom: 6px;
+    color: white;
+}
+
+.contents p {
+    font-size: 7px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+button {
+    font-size: 7px;
+    border-width: 2px;
+    padding: 5px;
+    color: red;
+    background-color: rgb(46, 44, 44);
+    border-radius: 0.5em;
+    border-color: red;
+}
+
+.container-1 {
+    margin-top: 60px;
+    height: 230px;
+    width: 100%;
+    display: flex;
+}
+
+.cards-1 {
+    height: 230px;
+    width: 40%;
+}
+
+.cards-2 {
+    height: 230px;
+    width: 61%;
+    border-left-width: 3px;
+    border-color: gray;
+}
+
+.auction h3 {
+    font-size: 10px;
+    justify-content: flex-end;
+    display: flex;
+    font-weight: 900;
+    color: gold;
+}
+
+.auction {
+    padding: 5px;
+    border-bottom-width: 3px;
+    border-color: gray;
+    width: 100%;
+}
+
+h4 {
+    padding: 5px;
+    font-size: 9px;
+    margin-top: 5px;
+    justify-content: flex-end;
+    display: flex;
+    font-weight: 800;
+    color: gold;
+}
+
+.auction-1 h3 {
+    font-size: 10px;
+    display: flex;
+    font-weight: 900;
+    color: white;
+}
+
+.auction-1 {
+    padding: 5px;
+    border-bottom-width: 3px;
+    border-color: gray;
+    width: 100%;
+}
+
+h5 {
+    padding: 5px;
+    font-size: 7px;
+    margin-top: 5px;
+    display: flex;
+    color: white;
+}
+
+h6 {
+    font-size: 10px;
+    display: flex;
+    color: white;
+}
